@@ -59,16 +59,28 @@
 #Notes:
 #
 
-def squarerootDic(i):
-	dic = {}
-	x = 1
-	while x <= i:
-		dic[x] = x * x
-		x = x + 1
+#def squarerootDic(i):
+#	dic = {}
+#	x = 1
+#	while x <= i:
+#		dic[x] = x * x
+#		x = x + 1
+#
+#	print(dic)
+#
+#squarerootDic(6)
 
-	print(dic)
+#Question 4:
+#Write a program which accepts a sequence of comma-separated numbers from console and generates
+#a list and a tuple which contains every number. Suppose the following input is supplied to 
+#the program:
+#34,67,55,33,12,98
+#Then, the output should be:
+#['34', '67', '55', '33', '12', '98']
+#('34', '67', '55', '33', '12', '98')
 
-squarerootDic(6)
+#Notes:
+#-what form will the input take? string? tuple? 
 
 
 
